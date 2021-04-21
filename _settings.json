@@ -1,0 +1,16 @@
+{
+	"name" : "docker-compose",
+	"fs" : {
+	  "url" : "/usr/share/fscrawler/data",
+	  "filename_as_id" : true
+	},
+	"elasticsearch" : {
+	  "nodes" : [
+		{ "url" : "https://elastic.example.com/" }
+	  ],
+	  "index" : "docker-compose",
+	  "pipeline": "example_pipeline",
+	  "type": "doc"
+	}
+  }
+  
